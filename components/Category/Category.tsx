@@ -3,7 +3,7 @@ import { Subcategory } from "./Subcategory";
 
 export const Categories = ({ category }: CategoryProps) => {
   return (
-    <div className="flex flex-col gap-4 relative w-fit">
+    <div className="flex flex-col gap-4 relative w-fit z-10">
       {category.map((cat: Category, index: number) => (
         <Subcategory
           category_name={cat.category_name}

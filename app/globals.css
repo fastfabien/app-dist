@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-hero {
+  @apply bg-cover bg-no-repeat bg-center;
+  background-image: url("/hero_apple.png");
+  background-size: 32rem;
+  background-position: -80px 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #f5f5f5 !important;
+}
