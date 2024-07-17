@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 
 export const PromotionCarousel = () => {
   return (
-    <div className="max-w-[800px] lg:max-w-[1200px] relative z-[5]">
+    <div className="w-4/5 relative z-[5]">
       <Swiper
         // install Swiper modules
         modules={[Pagination, A11y, Autoplay]}
