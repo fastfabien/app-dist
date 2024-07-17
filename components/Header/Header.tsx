@@ -13,7 +13,7 @@ export const Header = () => {
           !
         </p>
       </div>
-      <div className="flex items-center justify-center bg-gray mx-[50px] rounded-full pb-[18px] py-[14px] mt-5 shadow-lg">
+      <div className="flex items-center justify-center mx-auto bg-white rounded-full px-10 pb-[18px] py-[14px] mt-5 shadow-lg w-fit">
         <Logo />
         <Navbar />
         <SearchBar />
